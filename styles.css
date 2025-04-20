@@ -1,0 +1,33 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 13;
+  color:#012901
+}
+
+header {
+  background-color: #120114;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  margin: 20px;
+}
+ 
+header, footer { background-color: #000500;; padding: 1em; text-align: center; }
+    
+   
+    p {
+      font-size: 2em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .cta-button { background-color: #035703; color: white; padding: 0.75em 1.5em; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 1em; }
+    
+    footer p { margin: 0.5em 0; }
+
+   
