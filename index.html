@@ -201,15 +201,31 @@
   margin-right: auto;
   max-width: 100%;
   height: auto;
-  width: 50%;
+  width: 70%;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.site-logo {
+  width: 60px;
+  height: auto;
+  border-radius: 6px;
+}
+
 
   </style>
   
 </head>
 <body>
   <header>
-    <h1>Stamp and Seal Legal</h1>
+    <div class="header-container">
+      <img src="stamp-and-seal-logo.jpg" alt="Stamp and Seal Legal Logo" class="site-logo">
+      <h1>Stamp and Seal Legal Resources</h1>
+      </div>
     <nav>
       <a href="#about">About</a>
       <a href="#how-it-works">How It Works</a>
@@ -222,11 +238,11 @@
   <section id="about" class="container">
     <div class="slider">
       <div class="slides">
-        <img src="Approved.png" alt="Slide 1">
+        <img src="stamp-and-seal-background.png" alt="Slide 1">
         <img src="stamp-and-seal-pic2.png" alt="Slide 2">
         <img src="stamp-and-seal-pic1.png" alt="Slide 3">
         <!-- Duplicate for seamless loop -->
-        <img src="Approved.png" alt="Slide 1">
+        <img src="stamp-and-seal-background.png" alt="Slide 1">
         <img src="stamp-and-seal-pic2.png" alt="Slide 2">
         <img src="stamp-and-seal-pic1.png" alt="Slide 3">
         
@@ -241,7 +257,7 @@
     <p>Your one-stop platform for generating legal documents on demand. Secure, fast, and fully automated.</p>
     
     <p class="justified-text">Legal Drafting doesn’t have to be so complicated. Stamp and Seal Legal is a digital Legal Resource Hub built to simplify drafting of legal documents in Nigeria. Our comprehensive legal resource hub provides you with high-quality, customizable template documents for drafting Agreements, Contracts, Business registration documents and all sorts of Legal documents —all at a fraction of the cost of traditional legal services.</p>
-    <a href="#start" class="cta-button">Start Generating Documents</a>
+    <a href="about.html" target="_blank" class="cta-button">Learn More</a>
     <br>
     
   </section>
@@ -261,7 +277,7 @@
 
   <h3>Why Choose Stamp and Seal Legal?</h3>
   <ol>
-    <li class="justified-text">Expertly Crafted Templates: Our documents are designed by legal professionals highly experienced in legal drafting processes to ensure that they meet the highest standards and comply with existing regulations.</li>
+    <li class="justified-text">Expertly Crafted Templates: Our documents are drafted by legal professionals highly experienced in legal drafting processes to ensure that they meet the highest standards and comply with existing regulations.</li>
     <br>
     <li class="justified-text">Affordable Access: Stamp and Seal Legal offers you access to all the essential resources you need for drafting of legal documents at an affordable price. Each template is available for a one-time fee, making legal resources more accessible for all kinds of users.</li>
     <br>
@@ -304,7 +320,7 @@
       <div class="product-box">
         <img src="product-pic1.png" alt="Product 1">
         <h3>Tenancy Agreement</h3>
-        <a href="tenancy.html" class="details-btn">View Details</a>
+        <a href="https://forms.gle/ZsUneX36v8WkPVnp9" class="details-btn">View Details</a>
       </div>
       <div class="product-box">
         <img src="product-pic2.png" alt="Product 2">
@@ -318,8 +334,8 @@
       </div>
       <div class="product-box">
         <img src="product-pic4.png" alt="Product 4">
-        <h3>Non-Disclosure Agreement</h3>
-        <a href="nda.html" class="details-btn">View Details</a>
+        <h3>Loan Agreement</h3>
+        <a href="loan-agreement.html" class="details-btn">View Details</a>
       </div>
     </div>
   </section>
@@ -334,9 +350,9 @@
     <h2>Legal Services</h2>
 
     <div class="service-step">
-      <h3>Tenancy Agreement</h3>
-      <p>Protect your rights as a landlord or tenant. Auto-generate your customized agreement now.</p>
-      <a href="https://forms.gle/ZsUneX36v8WkPVnp9" class="cta-button">Start Tenancy Agreement</a>
+      <h3>Business Registration Templates</h3>
+      <p>Browse through our array of Business Registration Templates. Auto-generate your customized Memorandums and Articles of Association on different sectors. Register your business with ease.</p>
+      <a href="business-registration-templates.html" target="_blank" class="cta-button">Business Registration Templates</a>
     </div>
 
     <div class="service-step">
@@ -375,14 +391,24 @@
   
   
   <section id="contact" class="container">
-    <h2>Contact Us</h2>
+    <h3>Contact Us</h3>
     <p>Email: support@stampandseallegal.com</p>
     <p>Phone: +234-XXX-XXXXXXX</p>
     <p>Follow us on social media for updates and legal tips!</p>
+    
+    <br>
+    <h3>Terms and Conditions</h3>
+    <p class="justified-text">Stamp and Seal Legal provides access to customizable legal document templates, which are automatically generated based on user responses to guided forms. While our templates are developed with legal best practices in mind, they do not constitute legal advice. You are encouraged to consult a legal professional for personalized guidance and to add more specific clauses to better articulate your needs.
+
+      Stamp and Seal Legal is not responsible for any damages or consequences arising from the use of generated documents.</p>
+
   </section>
 
   <footer>
     <p1>&copy; 2025 Stamp and Seal Legal. All rights reserved.</p2>
-  </footer>
+    <p1><a href="terms.html" target="_blank">Terms and Conditions</a> |
+      <a href="privacy.html" target="_blank">Privacy Policy</a>
+      </p1> 
+    </footer>
 </body>
 </html>
