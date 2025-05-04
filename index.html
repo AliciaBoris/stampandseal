@@ -6,6 +6,74 @@
   <title>Stamp and Seal Legal</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    /* Add this inside your <style> block at the top */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .container {
+    padding: 1em;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 0.5em;
+    font-size: 14px;
+  }
+
+  .slides img {
+    height: auto;
+  }
+
+  .how-it-works-grid {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .step-card {
+    grid-template-columns: 1fr;
+    padding: 1em;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .testimonial-container {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .responsive-center-image {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .arrow {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  p, p1, li {
+    font-size: 16px;
+  }
+}
+
     body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
     header, footer { background-color: #000500;; padding: 1em; text-align: center; }
     nav a { margin: 0 1em; color: #fff; text-decoration: none; font-weight: 600; }
@@ -216,6 +284,40 @@
   border-radius: 6px;
 }
 
+.how-it-works-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.how-it-works-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.step-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  background-color: #e9f5ef;
+  margin: auto;
+}
+
+.step-card:hover {
+  transform: translateY(-25px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.step-number {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #07c010;
+  margin-bottom: 20px;
+}
 
   </style>
   
@@ -258,24 +360,39 @@
     
     <p class="justified-text">Legal Drafting doesn’t have to be so complicated. Stamp and Seal Legal is a digital Legal Resource Hub built to simplify drafting of legal documents in Nigeria. Our comprehensive legal resource hub provides you with high-quality, customizable template documents for drafting Agreements, Contracts, Business registration documents and all sorts of Legal documents —all at a fraction of the cost of traditional legal services.</p>
     <a href="about.html" target="_blank" class="cta-button">Learn More</a>
-    <br>
-    
-  </section>
   
-  <section id="how-it-works" class="container">
+    <div style="overflow-x: hidden;"></div>
+  <section id="how-it-works" class="how-it-works-section">
+    <h2>How It Works</h2>
    
-    <h3>How It Works</h3>
-    <ol>
-      <li class="justified-text">Choose the Legal Resource you want</li>
-      <li class="justified-text">Make a secure payment</li>
-      <li class="justified-text">Fill out our intelligent legal form</li>
-      <li class="justified-text">Receive your auto-generated document via email instantly</li>
-    </ol>
-    <br>
+      <!-- content here -->
+    <div class="how-it-works-grid">
+      <div class="step-card">
+        <span class="step-number">1</span>
+        <h3>Choose Your Document</h3>
+        <p>Select from a wide range of legal templates tailored to your needs.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-number">2</span>
+        <h3>Make Payment</h3>
+        <p>Pay securely via Paystack or Flutterwave to unlock the form.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-number">3</span>
+        <h3>Fill Out the Form</h3>
+        <p>Complete a simple online form to customize your document.</p>
+      </div>
+      <div class="step-card">
+        <span class="step-number">4</span>
+        <h3>Receive Instantly</h3>
+        <p>Get your finalized legal document sent directly to your email.</p>
+      </div>
+    </div>
   
-    <img src="contract-doc.png" alt="Description" class="responsive-center-image">
-
-  <h3>Why Choose Stamp and Seal Legal?</h3>
+  </section>
+</div>
+  
+   <h3>Why Choose Stamp and Seal Legal?</h3>
   <ol>
     <li class="justified-text">Expertly Crafted Templates: Our documents are drafted by legal professionals highly experienced in legal drafting processes to ensure that they meet the highest standards and comply with existing regulations.</li>
     <br>
@@ -283,7 +400,7 @@
     <br>
     <li class="justified-text">User-Friendly Experience: Our platform is easy to navigate. You can find the documents you need quickly, customize them to fit your specific needs, and download them instantly.</li>
     <br>
-    <li class="justified-text">Legal Advisory Services and Support: Users may choose to request for further legal Advisory services or support on customization of their templates. StampandSeal Legal provides such opportunites.</li>
+    <li class="justified-text">Legal Advisory Services and Support: Users may choose to request for further legal Advisory services or support on customization of their templates. Stamp and Seal Legal provides such opportunites.</li>
     <br>
     <li class="justified-text">Periodic Updates: Because Regulations change frequently, we regularly update our templates to reflect the latest legal requirements and best practices.
   </ol>
